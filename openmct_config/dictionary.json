@@ -85,6 +85,27 @@
                 {"key": "value", "name": "Value", "units": "hPa", "format": "float", "hints": {"range": 1}},
                 {"key": "utc",   "name": "Timestamp", "format": "utc", "hints": {"domain": 1}}
             ]
+        },
+        {
+            "name": "Mag X", "key": "imu.mag_x",
+            "values": [
+                {"key": "value", "name": "Value", "units": "uT", "format": "float", "hints": {"range": 1}},
+                {"key": "utc",   "name": "Timestamp", "format": "utc", "hints": {"domain": 1}}
+            ]
+        },
+        {
+            "name": "Mag Y", "key": "imu.mag_y",
+            "values": [
+                {"key": "value", "name": "Value", "units": "uT", "format": "float", "hints": {"range": 1}},
+                {"key": "utc",   "name": "Timestamp", "format": "utc", "hints": {"domain": 1}}
+            ]
+        },
+        {
+            "name": "Mag Z", "key": "imu.mag_z",
+            "values": [
+                {"key": "value", "name": "Value", "units": "uT", "format": "float", "hints": {"range": 1}},
+                {"key": "utc",   "name": "Timestamp", "format": "utc", "hints": {"domain": 1}}
+            ]
         }
     ]
 }

@@ -13,7 +13,7 @@ from computer.communication import (
 #MODO_PRUEBA = True   # True = datos falsos , False = serial real
 #PORT        = "/dev/ttyUSB0"  # solo importa si MODO_PRUEBA = False
 MODO_PRUEBA = False
-PORT = "COM3"
+PORT = "/dev/cu.usbserial-0001"
 BAUDRATE    = 115200
 
 
